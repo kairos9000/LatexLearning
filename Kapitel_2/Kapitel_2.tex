@@ -1,0 +1,102 @@
+\documentclass[a4paper, 12pt]{article} % Präambel
+% !TeX encoding=UTF-8
+% !TeX spellcheck=de_DE_frami
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{marvosym}
+\usepackage{parskip}
+\DeclareUnicodeCharacter{20AC}{\EUR}
+% \setcounter{secnumdepth}{4}
+
+\begin{document}    % Dokument
+
+\title{Unser erster Bericht}
+\author{Hans Müller \and Sebastian Meier}
+\date{23. Februar 2021}
+\maketitle
+\section*{Zusammenfassung}
+
+Dies ist das erste strukturierte Dokument, welches innerhalb der Übungen
+geschrieben wird. Hier wird der Abschnitt \dq Nummerierung\dq{} zitiert.
+Der Abschnitt hat die Nummer~\ref{nummerierung} und ist 
+auf der Seite~\pageref{nummerierung}
+\tableofcontents
+
+\section{Beschreibung}
+\subsection{Aufgabe}\label{aufgabe}
+Schreiben Sie ein Dokument als Artikel mit einer nicht-nummerierten
+Zusammenfassung. Speichern Sie diesen Text in einer Datei.
+
+\subsection{Deutscher Text}
+Achten Sie darauf, dass Sie in die Präambel alle Einstellungen für 
+deutsche Texte einfügen.
+
+\section{Arbeitsschritte}
+
+\section{Inhaltsangabe}
+Das Dokument soll eine automatische Inhaltsangabe erhalten, die nach der 
+Zusammenfassung auszugeben ist.
+
+\section{Unterstrukturen}
+Hier ist die oberste Gliederungsebene für Artikel.
+
+\subsection{Nummerierung}\label{nummerierung}
+Die Nummerierung erfolgt automatisch und hierarchisch.
+
+\subsubsection{Änderungen von Nummerierung}
+Es sind keine manuellen Änderungen der Nummerierung notwendig. 
+Neu eingeschobene Abschnitte werden automatisch korrekt nummeriert.
+
+\paragraph{Paragraphen} Paragraphen werden zwar intern nummeriert, aber in der
+Standardeinstellung werden diese Nummern nicht ausgegeben und die 
+Paragraphen werden in der Standardeinstellung auch nicht in das 
+Inhaltsverzeichnis gestellt.
+
+\subsubsection{Referenzen auf Nummern}
+In der Vorlesung wird gezeigt, wie man auch logische Gliederungsnummern 
+durch Querbezüge verweisen kann. Hier ist eine Referenz auf die Aufgabenstellung:
+Die Aufgabenstellung hat die Nummer~\ref{aufgabe} und die Seite~\pageref{aufgabe}
+
+\section{Formatierung}
+\subsection[Lange Überschriften]{Auch sehr lange Überschriften können verwendet werden, wobei hier
+einer Kurzfassung ins Inhaltsverzeichnis geschrieben werden soll}
+Blicken Sie in das Inhaltsverzeichnis.
+
+\subsection{Fettdruck}
+Größe und Fettdruck von Überschriften wird automatisch eingestellt.
+
+\subsection{Abstände}
+Beachten Sie, wie Abstände automatisch gesetzt werden.
+
+\subsection{Querbezüge} \label{subsec:referenzen}
+% Zu den besonderen Stärken von \LaTeX\ zählt die Verwendung von
+% Querbezügen innerhalb eines Dokuments.
+% \dots
+% Um den Unterabschnitt zu zitieren, in dem sich dieses Beispiel
+% befindet, schreibt man Abschnitt~\ref{subsec:referenzen}, wobei
+% das zugehörige Label an den Strukturbefehl angefügt wird.
+% Dieses Label befindet sich auf der Seite~\pageref{subsec:referenzen}.
+
+% \hspace{\fill} Dies ist ein Absatz, der eine Einrückung am Anfang besitzt.
+% Der nächste Absatz jedoch soll nicht eingerückt werden.\par
+% Hier kommt ein nicht eingerückter Absatz, der aber mit
+% dieser Ausnahme sonst keine Besonderheiten aufweist.\par
+% \vfill
+% Beim nachfolgenden Absatz wirkt die Aufhebung der
+% Einrückung nicht mehr, d.\,h.\ er wird wieder nach
+% Standard eingerückt.\par
+
+Im ersten Absatz springen wir \hfill zum Ende \linebreak
+und fahren in der zweiten Zeile fort. Hier lassen wir den Absatz langsam 
+ausklingen.\par\bigskip
+
+Nachdem wir ungefähr eine Zeile auslassen, beginnt unser zweiter Absatz. Hier
+lassen wir zunächst horizontal einen Zentimeter \hspace*{1cm} Platz, der
+handschriftlich gefüllt wird. Ebenso werden sieben Millimeter\vspace{7mm}
+
+vertikaler Raum innerhalb des Absatzes hinzugefügt. Damit endet der
+zweite Absatz.\par
+
+Im dritten Absatz steht nicht mehr viel.
+\end{document}

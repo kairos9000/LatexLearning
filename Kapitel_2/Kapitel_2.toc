@@ -1,0 +1,16 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Beschreibung}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Aufgabe}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Deutscher Text}{2}{}%
+\contentsline {section}{\numberline {2}Arbeitsschritte}{2}{}%
+\contentsline {section}{\numberline {3}Inhaltsangabe}{2}{}%
+\contentsline {section}{\numberline {4}Unterstrukturen}{2}{}%
+\contentsline {subsection}{\numberline {4.1}Nummerierung}{2}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Änderungen von Nummerierung}{2}{}%
+\contentsline {paragraph}{Paragraphen}{2}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Referenzen auf Nummern}{3}{}%
+\contentsline {section}{\numberline {5}Formatierung}{3}{}%
+\contentsline {subsection}{\numberline {5.1}Lange Überschriften}{3}{}%
+\contentsline {subsection}{\numberline {5.2}Fettdruck}{3}{}%
+\contentsline {subsection}{\numberline {5.3}Abstände}{3}{}%
+\contentsline {subsection}{\numberline {5.4}Querbezüge}{3}{}%
