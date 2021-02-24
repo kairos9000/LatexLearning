@@ -5,7 +5,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{marvosym}
-\usepackage{parskip}
+% \usepackage{parskip}
 \DeclareUnicodeCharacter{20AC}{\EUR}
 % \setcounter{secnumdepth}{4}
 
@@ -70,22 +70,22 @@ Größe und Fettdruck von Überschriften wird automatisch eingestellt.
 Beachten Sie, wie Abstände automatisch gesetzt werden.
 
 \subsection{Querbezüge} \label{subsec:referenzen}
-% Zu den besonderen Stärken von \LaTeX\ zählt die Verwendung von
-% Querbezügen innerhalb eines Dokuments.
-% \dots
-% Um den Unterabschnitt zu zitieren, in dem sich dieses Beispiel
-% befindet, schreibt man Abschnitt~\ref{subsec:referenzen}, wobei
-% das zugehörige Label an den Strukturbefehl angefügt wird.
-% Dieses Label befindet sich auf der Seite~\pageref{subsec:referenzen}.
+Zu den besonderen Stärken von \LaTeX\ zählt die Verwendung von
+Querbezügen innerhalb eines Dokuments.
+\dots
+Um den Unterabschnitt zu zitieren, in dem sich dieses Beispiel
+befindet, schreibt man Abschnitt~\ref{subsec:referenzen}, wobei
+das zugehörige Label an den Strukturbefehl angefügt wird.
+Dieses Label befindet sich auf der Seite~\pageref{subsec:referenzen}.
 
-% \hspace{\fill} Dies ist ein Absatz, der eine Einrückung am Anfang besitzt.
-% Der nächste Absatz jedoch soll nicht eingerückt werden.\par
-% Hier kommt ein nicht eingerückter Absatz, der aber mit
-% dieser Ausnahme sonst keine Besonderheiten aufweist.\par
-% \vfill
-% Beim nachfolgenden Absatz wirkt die Aufhebung der
-% Einrückung nicht mehr, d.\,h.\ er wird wieder nach
-% Standard eingerückt.\par
+\hspace{\fill} Dies ist ein Absatz, der eine Einrückung am Anfang besitzt.
+Der nächste Absatz jedoch soll nicht eingerückt werden.\par
+Hier kommt ein nicht eingerückter Absatz, der aber mit
+dieser Ausnahme sonst keine Besonderheiten aufweist.\par
+\vfill
+Beim nachfolgenden Absatz wirkt die Aufhebung der
+Einrückung nicht mehr, d.\,h.\ er wird wieder nach
+Standard eingerückt.\par
 
 Im ersten Absatz springen wir \hfill zum Ende \linebreak
 und fahren in der zweiten Zeile fort. Hier lassen wir den Absatz langsam 
@@ -98,5 +98,19 @@ handschriftlich gefüllt wird. Ebenso werden sieben Millimeter\vspace{7mm}
 vertikaler Raum innerhalb des Absatzes hinzugefügt. Damit endet der
 zweite Absatz.\par
 
-Im dritten Absatz steht nicht mehr viel.
+Im dritten Absatz steht nicht mehr viel.\par\bigskip
+
+
+Aus \flqq Lieder\frqq\ des Heinrich von Morungen (\textasteriskcentered 
+~12.~Jahrhundert, \textdagger ~13.~Jahrhundert) stammt \flqq V. Von den Elben\frqq\
+in mittelhochdeutscher Sprache:\par\medskip\noindent
+\glqq Von den elben wirt entsehen vil manic man,\\
+\hspace*{2ex} s\^{o} bin ich von gr\^{o}zer lieben ents\^{e}n \\
+von der besten, die \'{\i}e dehein m\'{a}n ze virunt gewan.\\
+\hspace*{2ex} wil aber s\^{\i} dar \'{u}mb\`{e} mich v\^{e}n,\\
+\hspace*{2ex} Und ze unstaten st\^{e}n,\\
+\hspace*{4ex} mac si danne rechen sich\\
+\hspace*{4ex} und tuo, des ich si bite. s\^{o} vr\'{e}ut si
+s\^{o} s\^{e}\textquoteright re mich,\\
+\hspace*{2ex} daz m\^{\i}n l\^{\i}p vor wunnen muoz zerg\^{e}n.\grqq
 \end{document}
