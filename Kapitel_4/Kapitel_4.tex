@@ -1,0 +1,213 @@
+\documentclass[a4paper, 12pt]{article} % Präambel
+% !TeX encoding=UTF-8
+% !TeX spellcheck=de_DE_frami
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{marvosym}
+\usepackage{parskip}
+\DeclareUnicodeCharacter{20AC}{\EUR}
+% \setcounter{secnumdepth}{4}
+\usepackage{pifont}
+\usepackage{enumerate}
+
+\begin{document}    % Dokument
+
+\begin{center}Ein zentrierter Text bleibt auch über mehrere
+    Zeilen und Absätze hinweg zentriert.\\
+    Umbrüche können beliebig hinzugefügt werden.\end{center}
+\begin{flushleft}Bei linksbündigen Flattersatz versucht \LaTeX\
+    nicht, einen Ausgleich auf der rechten Seite vorzunehmen.
+    Besonders bei sehr schmalen Absätzen wird dadurch ein
+    ansprechender Satzspiegel erzeugt.\end{flushleft}
+\begin{flushright}Der rechtsbündige Flattersatz ist das Gegenstück
+    zum linksbündigen Flattersatz. Man erhält auch bei einem\\
+    Umbruch das erwünschte Verhalten.\end{flushright}
+\par{\centering Ein zentrierter Text bleibt auch über mehrere
+Zeilen und Absätze hinweg zentriert.\\
+Umbrüche können beliebig hinzugefügt werden.\par}
+{\raggedright Bei linksbündigen Flattersatz versucht \LaTeX\
+nicht, einen Ausgleich auf der rechten Seite vorzunehmen.
+Besonders bei sehr schmalen Absätzen wird dadurch ein
+ansprechender Satzspiegel erzeugt.\par}
+{\raggedleft Der rechtsbündige Flattersatz ist das Gegenstück
+zum linksbündigen Flattersatz. Man erhält auch bei einem\\
+Umbruch das erwünschte Verhalten.\par}
+
+\begin{center} {\large\itshape Einladung zur Universitätsfeier} \end{center}
+
+\begin{flushright} \textsf{Diebis 33\\
+    92263 Ebermannsdorf\\
+    Deutschland}
+\end{flushright}
+
+\begin{center}
+    \begin{verse}
+\textsc{Zweiter Jäger:} \textbf{Seht mir!} das ist ein \textbf{\large wackrer} 
+\textsl{Kumpan}!
+\textit{Sie begrüßen ihn.}\\
+\textsc{Bürger:} {\Large Oh!} \texttt{\textbf{laßt} ihn!} Er ist 
+\textsf{guter {\large Leute}} Kind. \\
+\textsc{Erster Jäger:} Wir \emph{auch} nicht auf der \textit{\Large \textbf{Straße}}
+gefunden sind. \\
+\textsc{Bürger:} {\tiny Ich sag euch,} er \emph{hat} \textsf{\textbf{Vermögen und Mittel.}}
+\textbf{Fühlt \large{her}},
+das feine \texttt{Tüchlein} am \textsc{\Large Kittel}{\Huge !}\\
+\textsc{Trompeter:} Des \emph{Kaisers} 
+\textsl{Rock} ist der {\tiny\bfseries höchste} Titel.\\
+\textsc{Bürger:} Er erbt eine \emph{\tiny kleine}\textbf{Mützen}
+fabr{\Large i}{\Huge k}.\\
+\textsc{Zweiter Jäger:} Des Menschen \texttt{Wille},das
+ ist sein \textsf{Glück}.\\
+ \textsc{Bürger:} Von der {\Large Groß}\textit{mutter}eine
+  Kram \emph{und} Laden.\\
+  \textsc{Erster Jäger:} \textbf{Pfui!} wer handelt
+  mit \textit{Schwefel}faden!\\
+  {\large\textsc{Bürger:} Einen \emph{Weinschrank}
+  {\small dazu von seiner} Paten;}
+ Ein \textbf{Gewölbe} mit zwanzig Stückfaß\texttt{\bfseries Wein}.\\
+  \textsc{Trompeter:} Den \textbf{teilt} er mit
+  seinen \emph{Kameraden}.\par\bigskip
+    \end{verse}
+\end{center}
+
+\begin{center}
+    \flqq \textbf{\large Maria Stuart}\frqq\\\
+    \flqq \textbf{\large Friedrich Schiller}\frqq\
+    \begin{verse}
+        
+\textsc{Elisabeth\footnote{Königin von England}} \emph{ungeduldig}: \textsf{Ich will, daß dieser 
+unglücksel'gen Sache}
+Nicht mehr gedacht werden soll werden, daß ich endlich\footnote{Es ist \emph{keine} 
+gute Idee, die Königin von England zu verärgern.}
+\texttt{Will Ruhe davor haben und auf ewig.}\par\bigskip
+\end{verse}
+\end{center}
+
+
+\begin{enumerate}
+    \item erster Punkt
+    \item Zweiter Punkt
+    \item Dritter Punkt
+    \begin{enumerate}
+        \item Unterpunkt
+        \begin{enumerate}
+            \item Punkt
+            \begin{enumerate}
+                \item Punkt
+            \end{enumerate}
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+\begin{description}
+    \item[Punkt] erster Punkt
+    \item[Punkt 2,] Zweiter Punkt
+    \item[Für Lexikoneinträge] Dritter Punkt
+    \begin{description}
+        \item[eigene Punkte] Unterpunkt
+        \begin{description}
+            \item[automatisch fett] Punkt
+            \begin{description}
+                \item[letzter Punkt] Punkt
+                \begin{description}
+                    \item[Tiefe nicht auf 4 beschränkt] Punkt
+                \end{description}
+            \end{description}
+        \end{description}
+    \end{description}
+\end{description}
+
+\begin{itemize}
+    \item Mathematik 1
+    \begin{itemize}
+        \item Lineare Algebra
+        \item Analysis
+    \end{itemize}
+    \item Stochastik
+    \begin{itemize}
+        \item Grundlagen der Stochastik
+        \item Hypothesentests
+        \item Kombinatorik
+    \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+    \item Ein Roboter darf kein menschliches Wesen (wissentlich)
+     verletzen oder durch Untätigkeit (wissentlich) zulassen, dass
+      einem menschlichen Wesen Schaden zugefügt wird.
+    \item Ein Roboter muss den ihm von einem Menschen gegebenen
+     Befehlen gehorchen – es sei denn, ein solcher Befehl
+      würde mit Regel eins kollidieren.
+    \item Ein Roboter muss seine Existenz beschützen, solange dieser 
+    Schutz nicht mit Regel eins oder zwei kollidiert.
+\end{enumerate}
+
+\begin{enumerate}[A)]
+    \item Punkt auf der ersten Ebene
+    \item Die Nummerierung erfolgt alphanumerisch mit Klammer
+    \begin{enumerate}[{Beispiel} i:]
+        \item Punkt auf der zweiten Ebene
+        \item Hier haben wir römische Zahlen gewählt
+        \item Man beachte, dass Zusatztext geklammert werden muss.
+    \end{enumerate}
+\end{enumerate}
+
+Belisar mußte diese Brücke zerstören, wenn er Truppen und Getreide
+in die Stadt bringen wollte. Er wartete noch einige Zeit auf die
+Ankunft des Johannes, aber diesem kühnen General hatten die
+Goten\marginpar[linke Goten] {rechte Goten} den Weg verlegt. Er forderte Bessas in der  % Option von \marginpar[left]{right} steht für
+                                                                                        % die Seiten auf denen es ausgeben wird bei Büchern
+                                                                                        % falls die Randbemerkung auf einer ungeraden Seite steht
+                                                                                        % wird right benutzt, falls sie auf einer geraden Seite steht
+                                                                                        % wird left benutzt
+Stadt auf, einen gemeinschaftlichen Angriff auf das gotische
+Lager zu machen, aber der Befehlshaber regte sich nicht, und die
+Besatzung lag starr und müßig auf den Wällen Roms.
+
+\verb+\verb!\begin{verbatim*}!\textit{Quelltext}\verb!+
+    \textsf{\tiny schwierig\\ oder?}
+    \verb+\end{verbatim*}!+
+
+
+\begin{tabbing}
+    \scshape Dramatis \= \hspace*{5cm} \=\kill  % Der Tabulatorstopp nach Dramatis
+                                                % ist 5cm lang
+                                                % alternativ geht auch:
+                                                % \scshape Dramatis \=The Cardinal of Lorraine, \=\kill
+    \scshape Dramatis \=\scshape Personae\\[2mm]
+    \> Chorus\\
+    \> Dr.~John Faustus \\
+    \> Wagner, \>\itshape his servant, a student\\
+    \> Valdes, \>\itshape his friend\\
+    \> Cornelius, \>\itshape his friend\\
+    \> The Cardinal of Lorraine, \>\itshape a french priest
+\end{tabbing}
+
+\begin{tabbing}
+    \scshape Dramatis \=The Cardinal of Lorraine, \=\kill
+    \scshape Dramatis \=\scshape Personae\+\\[2mm] % Durch \+ muss nicht vor jede Zeile \> geschrieben werden
+    Chorus\\
+    Dr.~John Faustus\\
+    Wagner, \>\itshape his servant, a student\\
+    Valdes, \>\itshape his friend\\
+    Cornelius, \>\itshape his friend\\
+    The Cardinal of Lorraine,\>\itshape a french priest
+\end{tabbing}
+
+\begin{tabbing}
+    Package \=\sffamily java.lang\=\sffamily String\=\hspace*{5mm}\=\kill
+    Package \>\sffamily java.lang\\
+    Class \>\> \sffamily String\\
+    Method \>\>\> \sffamily charAt\+\+\+\\
+    \>\itshape Returns the char value at the specified index.\\
+    \sffamily codePointAt\\
+    \>\itshape Returns the character (Unicode code point)\\
+    \>\itshape at the specified index.\\
+    \<\<\< Class \>\>\sffamily Math\\
+    \<\<\< Method \>\>\>\sffamily sin\\
+    \>\itshape Returns the trigonometric sine of an angle.\\
+    \sffamily cos\\
+    \>\itshape Returns the trigonometric cosine of an angle.\\
+\end{tabbing}
+\end{document}
