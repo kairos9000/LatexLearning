@@ -8,6 +8,13 @@
 % \usepackage{parskip}
 \DeclareUnicodeCharacter{20AC}{\EUR}
 % \setcounter{secnumdepth}{4}
+\usepackage{array}
+\usepackage[format=hang,
+font={footnotesize,sf},
+labelfont={bf},
+margin=1cm,
+aboveskip=5pt,
+position=bottom]{caption}
 
 \begin{document}    % Dokument
 
@@ -22,6 +29,8 @@ geschrieben wird. Hier wird der Abschnitt \dq Nummerierung\dq{} zitiert.
 Der Abschnitt hat die Nummer~\ref{nummerierung} und ist 
 auf der Seite~\pageref{nummerierung}
 \tableofcontents
+\listoftables
+\listoffigures
 
 \section{Beschreibung}
 \subsection{Aufgabe}\label{aufgabe}
@@ -100,7 +109,48 @@ zweite Absatz.\par
 
 Im dritten Absatz steht nicht mehr viel.\par\bigskip
 
+\begin{table}[t]
+    \centering
+\begin{tabular}{|>{\sffamily}l|*{3}{>{\sffamily}r}|}
+    \firsthline
+    \textbf{Land} &  \textbf{2002} &  \textbf{2001} &  \textbf{1990}\\
+    \hline\hline
+    USA & 3 800 000 & 3 778 512 & 3 040 932\\
+    VR China & 1 602 156 & 1 421 268 & 618 000\\
+    Japan & 935 000 & 932 904 & 857 268\\
+    Russland & 888 936 & 888 382 & -\\
+    Kanada & 565 000 & 564 108 & 482 028\\
+    Frankreich & 549 245 & 545 000 & 419 219\\
+    Deutschland & 543 561 & 566 835 & 566 484\\
+    \hline\hline
+    Weltproduktion & 15 750 000 & 15 684 000 & 11 179 000\\
+    \lasthline
 
+\end{tabular}
+\caption{Beispielstabelle mit BIP verschiedener Länder}\label{BIPtabelle}
+\end{table}
+
+\begin{table}[t]
+\begin{tabbing}
+    \centering
+    Package \=\sffamily java.lang\=\sffamily String\=\hspace*{5mm}\=\kill
+    Package \>\sffamily java.lang\\
+    Class \>\> \sffamily String\\
+    Method \>\>\> \sffamily charAt\+\+\+\\
+    \>\itshape Returns the char value at the specified index.\\
+    \sffamily codePointAt\\
+    \>\itshape Returns the character (Unicode code point)\\
+    \>\itshape at the specified index.\\
+    \<\<\< Class \>\>\sffamily Math\\
+    \<\<\< Method \>\>\>\sffamily sin\\
+    \>\itshape Returns the trigonometric sine of an angle.\\
+    \sffamily cos\\
+    \>\itshape Returns the trigonometric cosine of an angle.\\
+\end{tabbing}
+\caption{Tabulatorumgebung mit Java-Beispiel}\label{java-tab}
+\end{table}
+
+\begin{figure}[b]
 Aus \flqq Lieder\frqq\ des Heinrich von Morungen (\textasteriskcentered 
 ~12.~Jahrhundert, \textdagger ~13.~Jahrhundert) stammt \flqq V. Von den Elben\frqq\
 in mittelhochdeutscher Sprache:\par\medskip\noindent
@@ -113,7 +163,8 @@ von der besten, die \'{\i}e dehein m\'{a}n ze virunt gewan.\\
 \hspace*{4ex} und tuo, des ich si bite. s\^{o} vr\'{e}ut si
 s\^{o} s\^{e}\textquoteright re mich,\\
 \hspace*{2ex} daz m\^{\i}n l\^{\i}p vor wunnen muoz zerg\^{e}n.\grqq\par\bigskip
-
+\caption{Gedicht von Heinrich von Morungen}\label{Heinrich-Gedicht}
+\end{figure}
 
 
 Ein mittelenglisches \frq Spottlied auf Richard von Cornwall\flq\ 

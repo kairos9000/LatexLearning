@@ -1,0 +1,409 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.18)  3 MAR 2021 15:15
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/Philip/Desktop/LatexLearning/Kapitel_5/Kapitel_5.tex
+(c:/Users/Philip/Desktop/LatexLearning/Kapitel_5/Kapitel_5.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count183
+\U@D=\dimen139
+\l@babelnohyphens=\language86
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count184
+ (c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthography)
+ (c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 121.
+))) (c:/texlive/2020/texmf-dist/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+   defining Unicode char U+20AC (decimal 8364)
+ (c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box47
+\extrarowheight=\dimen141
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box48
+) (c:/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen142
+)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count185
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count186
+\leftroot@=\count187
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count188
+\DOTSCASE@=\count189
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
+\dotsspace@=\muskip16
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
+\tag@help=\toks19
+\row@=\count194
+\column@=\count195
+\maxfields@=\count196
+\andhelp@=\toks20
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count197
+\l__pdf_internal_box=\box51
+) (c:/Users/Philip/Desktop/LatexLearning/Kapitel_5/Kapitel_5.aux)
+\openout1 = `Kapitel_5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+Underfull \hbox (badness 4120) in paragraph at lines 25--26
+[]|\T1/cmr/m/n/12 Dieser Text wird
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 25--26
+\T1/cmr/m/n/12 um-ge-bro-chen und
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 25--26
+\T1/cmr/m/n/12 mit der obers-ten
+ []
+
+
+Underfull \hbox (badness 6995) in paragraph at lines 26--27
+[]|\T1/cmr/m/n/12 Dieser Text hin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\T1/cmr/m/n/12 ge-gen wird so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\T1/cmr/m/n/12 for-ma-tiert, dass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\T1/cmr/m/n/12 er im Ver-gleich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]|\T1/cmr/m/n/12 Schlieÿlich kann
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\T1/cmr/m/n/12 man einen Text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\T1/cmr/m/n/12 auch mit der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\T1/cmr/m/n/12 un-ters-ten Zei-le
+ []
+
+
+Overfull \hbox (21.14001pt too wide) in paragraph at lines 22--31
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 40.
+(c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [1
+
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 57.
+ (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 1184) in paragraph at lines 59--61
+\T1/cmr/m/it/12 (Un-i-co-de co-de point)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+\T1/cmss/m/n/12 rö-mi-schen Re-pu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+\T1/cmss/m/n/12 Macht-be-fug-nis-se
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 74--76
+\T1/cmss/m/n/12 ei-nem Al-lein-herr-
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 76--78
+\T1/cmss/m/n/12 de-rungs-zeit über-
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 76--78
+\T1/cmss/m/n/12 nah-men die Go-
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 76--78
+\T1/cmss/m/n/12 Fran-ken die Vor-
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 78--79
+[]|\T1/cmss/m/n/12 Im spä-te-ren Mit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+\T1/cmss/m/n/12 tel-al-ter re-gier-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+\T1/cmss/m/n/12 Fürs-ten einen
+ []
+
+
+Overfull \hbox (24.19485pt too wide) in paragraph at lines 64--81
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/cmss/m/sl/12 Sea-salt, pe-at,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\T1/cmss/m/sl/12 in-ten-se dry-ness,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\T1/cmss/m/sl/12 te-ry, ho-neyish,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]|\T1/cmss/m/sl/12 Amber-red,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/cmss/m/sl/12 accented, roun-
+ []
+
+
+Overfull \hbox (44.78928pt too wide) in paragraph at lines 82--95
+ [][] 
+ []
+
+[2]
+Underfull \hbox (badness 4036) in paragraph at lines 97--98
+[]|\T1/cmr/m/n/12 Spalten wer-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+\T1/cmr/m/n/12 mit zu-sätz-li-
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 97--98
+\T1/cmr/m/n/12 chem Leer-raum
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 97--98
+\T1/cmr/m/n/12 auf der lin-ken
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+\T1/cmr/m/n/12 und rech-ten
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 101--102
+[]|\T1/cmr/m/n/12 Wie man hier
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 105--106
+[]|\T1/cmr/m/n/12 Es las-sen sich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\T1/cmr/m/n/12 statt ver-ti-ka-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\T1/cmr/m/n/12 Ge-stal-tung der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\T1/cmr/m/n/12 Spal-ten-tren-nun-
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]|\T1/cmr/m/n/12 Üblicherweise
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T1/cmr/m/n/12 wer-den Ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T1/cmr/m/n/12 bel-len-ein-trä-ge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T1/cmr/m/n/12 fes-ter Brei-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T1/cmr/m/n/12 in Block-satz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\T1/cmr/m/n/12 lich auch mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\T1/cmr/m/n/12 rechts-bün-di-ger
+ []
+
+
+Overfull \hbox (1.43301pt too wide) in paragraph at lines 127--135
+ [][] 
+ []
+
+
+Overfull \hbox (42.20305pt too wide) in paragraph at lines 141--150
+[][] 
+ []
+
+[4] (c:/Users/Philip/Desktop/LatexLearning/Kapitel_5/Kapitel_5.aux) ) 
+Here is how much of TeX's memory you used:
+ 2512 strings out of 479485
+ 33361 string characters out of 5875915
+ 329713 words of memory out of 5000000
+ 19517 multiletter control sequences out of 15000+600000
+ 544790 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 65i,8n,72p,260b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on c:/Users/Philip/Desktop/LatexLearning/Kapitel_5/Kapitel_5.pdf (4 pages, 178001 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,152 @@
+\documentclass[a4paper, 12pt]{article} % Präambel
+% !TeX encoding=UTF-8
+% !TeX spellcheck=de_DE_frami
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{marvosym}
+% \usepackage{parskip}
+\DeclareUnicodeCharacter{20AC}{\EUR}
+% \setcounter{secnumdepth}{4}
+\usepackage{array}
+\usepackage{pifont}
+\usepackage{amsmath}
+
+\begin{document}    % Dokument
+\begin{center}
+\begin{tabular}{l||c<{Text}r}
+    \multicolumn{2}{c} {Linksbündig  Zentriert} & Rechtsbündig\\
+    Meine       & erste     & Tabelle     \\
+\end{tabular}\vspace*{3cm}
+
+\begin{tabular}{|l|p{3.5cm}|m{3.5cm}|b{3.5cm}|}
+    \firsthline
+    Ausrichtung & oben & mitte & unten\\
+    \hline\cline{1-2} \vline Mitte\vline &Dieser Text wird umgebrochen und mit der obersten Zeile
+    ausrichtet. &Dieser Text hingegen wird so formatiert, dass er
+    im Vergleich mit der Umgebung mittig steht. &
+    Schließlich kann man einen Text auch mit der untersten Zeile
+    ausrichten.\\\hline
+\end{tabular}\vspace*{3cm}
+
+\begin{tabular}{l|>{\itshape}l}
+    Deutsch & English\\
+    \hline Buch    & Book\\
+    Tisch   & Table\\
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{|>{\sffamily}l|*{3}{>{\sffamily}r}|}
+    \firsthline
+    \textbf{Land} &  \textbf{2002} &  \textbf{2001} &  \textbf{1990}\\
+    \hline\hline
+    USA & 3 800 000 & 3 778 512 & 3 040 932\\
+    VR China & 1 602 156 & 1 421 268 & 618 000\\
+    Japan & 935 000 & 932 904 & 857 268\\
+    Russland & 888 936 & 888 382 & -\\
+    Kanada & 565 000 & 564 108 & 482 028\\
+    Frankreich & 549 245 & 545 000 & 419 219\\
+    Deutschland & 543 561 & 566 835 & 566 484\\
+    \hline\hline
+    Weltproduktion & 15 750 000 & 15 684 000 & 11 179 000\\
+    \lasthline
+
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{|>{\ding{212}\ttfamily}l<{\ding{43}}|>{\itshape}p{4cm}|}
+    \firsthline
+    \multicolumn{2}{|c|}{Class \flqq\texttt{String}\frqq}\\
+    \hline charAt & Returns the char value at the specified index\\
+    \cline{2-2}codePointAt & Returns the character (Unicode code point)
+    at the specified index\\
+    \hline
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{|*{4}{>{\sffamily}p{3.2cm}|}}
+    \firsthline
+    \multicolumn{4}{|c|}{\bfseries\itshape Das alte Italien}\\\hline
+    \multicolumn{2}{|c|}{\bfseries Antike} & \multicolumn{2}{c|}{\bfseries Mittelalter}\\\hline
+    \multicolumn{1}{|c|}{\itshape Republik}
+    & \multicolumn{1}{c|}{\itshape Kaiserreich}
+    & \multicolumn{1}{c|}{\itshape Franken} 
+    & \multicolumn{1}{c|}{\itshape Teilstaaten}\\\hline
+    In den Zeiten der römischen Republik standen dem Staat jeweils zwei Konsuln vor,
+    deren Machtbefugnisse identisch waren.
+    & Das römische Kaiserreich wurde von einem Alleinherrscher, dem
+    Kaiser regiert
+    & In der Völkerwanderungszeit übernahmen die Goten und später die Franken
+    die Vorherrschaft 
+    & Im späteren Mittelalter regierten Fürsten einen Flickenteppich von Einzelstaaten\\
+    \lasthline
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{||>{\bfseries}l|ll|>{\sffamily\slshape}m{2cm}>{\sffamily\slshape}m{3cm}|r||}
+    \firsthline
+    & \multicolumn{2}{c|}{Herkunft} & \multicolumn{2}{c|}{Beschreibung}& \\\cline{2-5}
+    Malt Whisky & Region & District & Colour & Nose & Pkt\\\hline\hline
+    Lagavulin & Islay & South Shore & Full Amber
+    & Sea-salt, peat, intense dryness, sherry & 95\\\cline{4-6}
+    The Macallan & Highlands & Speyside & Amber
+    & Sherry, and buttery, honeyish, malt character & 87\\\cline{4-6}
+    Talisker & Highlands & Skye & Amber-red, bright
+    & Pungent, smoke-accented, rounded & 90\\\cline{4-6}
+    \lasthline
+    
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}[b]{p{3cm}}
+    \firsthline Spalten werden mit zusätzlichem Leerraum
+    auf der linken und rechten Seite gesetzt.\\\lasthline
+\end{tabular}
+\begin{tabular}{p{3cm}}
+    \firsthline Wie man hier sieht, kann man diesen Leerraum
+    auch entfernen.\\\lasthline
+\end{tabular}
+\begin{tabular}[t]{!{\ding{116}}p{3cm}!{\ding{116}}}
+    \firsthline Es lassen sich statt vertikaler Linien auch andere
+    Zeichen zur Gestaltung der Spaltentrennungen verwenden.\\\lasthline
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{c r@{,}l}
+    \hline Ausdruck &\multicolumn{2}{c}{Wert}\\\hline
+    $\pi$&    3&1416\\$\sqrt{55555}$    &  235&70\\$\exp(8)$        & 2981&0\\\hline
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{|l|c!{\ding{86}}r@{:}l|r@{,}l@{ E}l@{ V }|}
+    \firsthline
+    \multicolumn{7}{|c|}{\bfseries Messbericht}\\\hline
+    Anordnung & \# &  \multicolumn{2}{c|}{Verhältnis} & \multicolumn{3}{c|}{Messwert}\\\hline
+    Aufbau A & 1 & 10 & 1 & 1 & 1234 & -4 \\
+    & 2 & 7 & 2 & 12 & 142 & -2 \\
+    & 3 & 2 & 8 & 4 & 2 & +120 \\\hline
+
+    Aufbau B & 1 & 100 & 1 & 1 & 0 & -9999 \\
+    & 2 & 1 & 100 & 2 & 777432 & -12 \\
+    & 3 & 1 & 200 & 3 & 113 & -2 \\\lasthline
+\end{tabular}\vspace{3cm}
+
+\begin{tabular}{|p{3cm}|>{\raggedright\arraybackslash}p{3cm}|%
+    p{3cm}|%
+    >{\centering\arraybackslash}p{3cm}|}
+    \hlineÜblicherweise werden Tabelleneinträge fester Breite in
+    Blocksatz gesetzt & \raggedright\arraybackslash Gerade bei schmalen Spalten ist aber oft Flattersatz
+    optisch angenehmer &Das geht natürlich auch mit rechtsbündiger Formatierung
+    &Auch die Zentrierung einer Tabellenspalte ist möglich\\\hline
+\end{tabular}
+\end{center}
+
+Hier zitieren wir die Tabelle~\ref{tab:tabellegleit} im laufenden
+Text. Diese Tabelle befindet sich auf
+Seite~\pageref{tab:tabellegleit}
+\begin{table}[b]
+    \begin{tabular}{>{\itshape}lll}
+        \hline\hline\bfseries physikalische Größe & 
+        \bfseries englische Bezeichnung &
+        \bfseries französische Bezeichnung\\\hline
+        \hline Absorptionsgrad & absorptance & facteur d’absorption\\
+        Arbeit & work & travail\\Dichte & density & masse volumique\\
+        Kinetische Energie & kinetic energy & énergie cinétique\\
+        Schallleistung & sound energy flux & flux d’énergyacoustique\\\hline
+    \end{tabular}%
+    \caption{Beispielstabelle mit der Übersetzung von physikalischenGrößen}\label{tab:tabellegleit}
+\end{table}
+\end{document}
