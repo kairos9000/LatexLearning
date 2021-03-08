@@ -1,0 +1,130 @@
+\documentclass[a4paper, 12pt]{article} % Präambel
+% !TeX encoding=UTF-8
+% !TeX spellcheck=de_DE_frami
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{marvosym}
+\usepackage{parskip}
+\DeclareUnicodeCharacter{20AC}{\EUR}
+% \setcounter{secnumdepth}{4}
+\usepackage{array}
+\usepackage{pifont}
+\usepackage{amsmath}
+\usepackage{calc}
+
+\newcounter{zahlA}%   in der Präambel
+\newcounter{zahlB}%   in der Präambel
+\newlength{\templaenge}%   in der Präambel
+\newlength{\tunneldiode}
+\newlength{\avalancheDiode}
+\newlength{\gunnDiode}
+
+\begin{document}    % Dokument
+
+\begin{enumerate}\item Zunächst normale Zählung. Jetzt erhöhen wir 
+    \texttt{enumi}um 5.\addtocounter{enumi}{5}\item
+    Man beachte, dass der Zähler um 6 gestiegen ist, da die normale
+    Erhöhung auch hinzukommt. Man kann auch rückwärts springen.
+    \addtocounter{enumi}{-10}\item So kann man auch mal negativ aufzählen.
+     Der nächste Punkt
+     soll (ungefähr) die Seitenzahl erhalten.
+     \setcounter{enumi}{\value{page}-1}
+     \item Hier ist (vielleicht) die Seitenzahl. 
+     Abweichungen ergeben
+     sich, da erstens hochgezählt wird und zweitens bei Auslesen der
+     Seitenzahl \LaTeX\ vielleicht noch nicht umgebrochen hatte.
+\end{enumerate}
+
+\setcounter{zahlA}{10}
+\setcounter{zahlB}{70}
+
+Ich habe \arabic{zahlA}\EUR~in der Hand. Ein Römer würde vielleicht
+\Roman{zahlA} Sesterzen haben. Wenn ich \arabic{zahlB}\EUR~hinzunehme,
+ \addtocounter{zahlA}{\value{zahlB}}so 
+ habe ich \arabic{zahlA}\EUR~in der Hand.Ein Römer hätte entsprechend
+ \Roman{zahlA} Sesterzen.
+
+ \setcounter{zahlA}{4}Ich habe \refstepcounter{zahlA}\label{euroinderhand}%
+ \arabic{zahlA}\EUR~in der Hand.\par Später werde ich mich erinnern, dass ich 
+ \ref{euroinderhand}\EUR~in der Hand hatte und zwar auf Seite 
+ \pageref{euroinderhand}.
+
+
+%  \renewcommand{\thezahlA}{(\roman{zahlA})}%
+%  \makeatletter\renewcommand{\p@zahlA}{\theparagraph~}\makeatother% to make @ a letter, so that it is not recognized by the latex compiler
+ In diesem Handbuch werden
+ \refstepcounter{zahlA}\thezahlA\ \LaTeX-Eigenschaften vorgestellt,
+ \refstepcounter{zahlA}\thezahlA\label{zweitens} mit Beispielen
+ illustriert und
+ \refstepcounter{zahlA}\thezahlA{} durch Übungen verinnerlicht.\par
+ Der Hinweis auf Beispiele war in Abschnitt~\ref{zweitens} auf
+ Seite~\pageref{zweitens}.
+
+ \makeatletter\p@zahlA\thezahlA
+
+ Genau ein\hspace{1in}Zoll Abstand.
+
+
+ A\hfill B\hspace{\stretch{1}}C\\
+ Anfang\hfill Mitte\hfill Ende\\
+ Anfang\dotfill Mitte\hrulefill Ende\\
+ Anfang\dotfill\hfil\hrulefill Ende\\
+ Anfang\dotfill\hfill\hrulefill Ende\\
+ Anfang\dotfill\hspace{0pt plus 1filll}\hrulefill Ende
+
+
+\setlength{\templaenge}{8cm}
+Abstand\hspace{\templaenge}von \verb+\templaenge+\\
+\settowidth{\templaenge}{\textbf{Rumpelstilzchen}}
+Ach, wie gut, dass niemand weiß, dass ich \textbf{Rumpelstilzchen} heiß’.\\
+Ach, wie gut, dass niemand weiß, dass ich \hspace{\templaenge} heiß’.
+
+\settowidth{\tunneldiode}{\textbf{\Large Tunneldiode}}
+\settowidth{\avalancheDiode}{\textbf{\Large Avalanche-Diode}}
+\settowidth{\gunnDiode}{\textbf{\Large Gunn-Diode}}
+
+
+\begin{tabular}{|p{\tunneldiode}|p{\avalancheDiode}|p{\gunnDiode}|}
+
+    \textbf{\Large Tunneldiode} & \textbf{\Large Avalanche-Diode} & 
+    \textbf{\Large Gunn-Diode}\\
+    {\small\sffamily William Shockley äußerte bereits 1954 die Vermutung, dass in 
+    bestimmten Werkstoffen die Migrationsgeschwindigkeit der Elektronen unter
+    Einfluss hoher elektrischer Feldstärken abnimmt.} & 
+    {\small\sffamily Bei der Avalanche-Diode tritt eine lawinenartige Verstärkung des 
+    Zenereffekts auf. Die durch den Zenereffekt freigesetzten 
+    Ladungsträger werden bei ausreichender Feldstärke und 
+    Migratonslänge derart beschleunigt, dass ihre kinetische Energie 
+    ausreicht, um sekundäre Elektronen vom Valenzband in das 
+    Leistungsband übergehen zu lassen.} & 
+    {\small\sffamily Im Jahr 1963 entdeckte der brititsche Physiker 
+    Jan B. Gunn bei seinen Untersuchungen im IBM-
+    Forschungslabor an GaAs- und InP-Widerständen,
+    dass deren Eigenrauschen ab bestimmten Spannungen stark
+    anstieg, bis hin zur Oszillation.}
+
+\end{tabular}\vspace{3cm}
+
+\setlength{\arrayrulewidth}{1pt}
+
+\begin{tabular}%
+    {|*{4}{p{(\linewidth-\tabcolsep*8-\arrayrulewidth*5)/4}|}}  % tabcolsep is the distance of the columns from each other
+                                                                % and the border of the table
+                                                                % arrayrulewidth is the width of the separating lines for the columns
+    \hline\multicolumn{4}{|c|}{\bfseries
+    Tabelle mit Textbreite und vier gleichbreiten Spalten}\\
+    \hline\itshape
+    Spalte 1 & \itshape
+    Spalte 2 &\itshape
+    Spalte 3 & \itshape
+    Spalte 4\\
+    \hline\hline
+    Dieser Text ist in der ersten Spalte &
+    Dieser Text ist in der zweiten Spalte &
+    Dieser Text ist in der dritten Spalte &
+    Dieser Text ist in der vierten Spalte\\
+    \hline
+\end{tabular}
+
+\end{document}
